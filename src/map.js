@@ -3,7 +3,7 @@ const availableMaps = obj.availableMaps
 
 function getMaps(mapData) {
     let maps = []
-    for (data in availableMaps) {
+    for (data in mapData) {
         maps.push(`Map.${data}`)
     }
     return maps
